@@ -1,0 +1,28 @@
+{
+    "name": "logikostech/selectoptions",
+    "homepage" : "https://github.com/logikostech/selectoptions",
+    "description": "Phalcon plugin to query selectbox options.  Works well as a backend to select2",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "phalcon",
+        "plugin",
+        "select2"
+    ],
+    "authors": [
+        {
+            "name": "Todd Empcke",
+            "email": "tempcke@logikostech.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-phalcon": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Logikos\\Forms\\": "src/",
+            "Logikos\\Tests\\": "tests/"
+        }
+    }
+}

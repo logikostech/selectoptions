@@ -13,6 +13,7 @@ use Phalcon\Db\Column;
 // controller can do more with it
 
 class SelectOptions extends Plugin {
+  use \Logikos\Events\EventsAwareTrait;
   
   /**
    * String modelname - must implement Phalcon\Mvc\Model
@@ -320,12 +321,5 @@ class SelectOptions extends Plugin {
         $bind
     );
     
-  }
-  
-  protected function _fireEvent($eventType,$data=null) {
-    if ($this->getEventsManager() instanceof \Phalcon\Events\ManagerInterface) {
-      $prefix = strtolower(array_slice(explode('\\', static::class), -1)[0]);
-      return $this->getEventsManager()->fire($prefix.':'.$eventType,$this,$data);
-    }
   }
 }

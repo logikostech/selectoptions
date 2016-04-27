@@ -4,6 +4,7 @@
   "description": "Phalcon plugin to query selectbox options.  Works well as a backend to select2",
   "type": "library",
   "license": "MIT",
+  "minimum-stability": "dev",
   "keywords": [
     "phalcon",
     "plugin",

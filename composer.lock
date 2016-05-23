@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ed2a4f9bbecb1384b11ae7f23ba83ce2",
+    "content-hash": "2acd5b8bc8e78c751599beec0cdefb38",
+    "packages": [
+        {
+            "name": "logikostech/common",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/logikostech/common",
+                "reference": "7219305756c33404cc93d29f3560aec5d543a65e"
+            },
+            "require": {
+                "ext-phalcon": "2.*",
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Logikos\\": "src/",
+                    "Logikos\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Todd Empcke",
+                    "email": "tempcke@logikostech.net"
+                }
+            ],
+            "description": "Miscellaneous useful classes, interfaces, and traits",
+            "homepage": "https://github.com/logikostech/common",
+            "keywords": [
+                "logikos",
+                "logikostech",
+                "phalcon",
+                "plugin"
+            ],
+            "time": "2016-04-27 16:16:45"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "logikostech/common": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4",
+        "ext-phalcon": "2.*"
+    },
+    "platform-dev": []
+}
